@@ -55,7 +55,7 @@
 						<li><a href="#"><span class="icon-arrow-right3"></span>JJandB</a></li>
 					</ul>
 				</li>
-				<li><a href="">Artículos</a></li>
+				<li><a href="http://post.spert.com.mx">Artículos</a></li>
 				<li><a href="contacto"></span>Contacto</a></li>
 				<li class="menu_aviso"><a href="aviso">Aviso de Privacidad</a></li>
 			</ul>

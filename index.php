@@ -5,7 +5,6 @@
  * configurar nuestra aplicacion
  */
 
-require 'php/config.php';
 require 'php/helpers.php';
 
 //Llamar al controlador indicado
