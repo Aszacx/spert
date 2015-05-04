@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteRule ^http://test-principal.spert.com.mx/$ index.php?url=$1 [QSA,L]
+	RewriteRule ^.*$ index.php?url=$1 [QSA,L]
 </IfModule>
