@@ -1,0 +1,320 @@
+@import url("contact.css");
+@import url("aviso.css");
+@import url("servicios.css");
+@import url("nosotros.css");
+@import url("windows.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arimo;
+  background: #fefefe;
+}
+.menu_bar {
+  display: none;
+}
+header {
+  width: 100%;
+}
+header nav {
+  background: #2E2E2E;
+  z-index: 1000;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 15px;
+  text-shadow: 0px 0px 1px #2E2E2E;
+}
+header nav .social {
+  float: right;
+  margin-right: 10px;
+}
+header nav .social ul li {
+  margin: 3px 0;
+  vertical-align: middle;
+}
+header nav .social ul li:hover {
+  background: none;
+}
+header nav .social a {
+  padding: 5px;
+}
+header nav .social a span {
+  margin: 0;
+  font-size: 23px;
+}
+header nav .social ul li a:hover {
+  background: none;
+}
+header nav ul li a:hover {
+  background-color: none;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul .logo img {
+  width: 110px;
+}
+header nav ul .logo:hover {
+  background: none;
+}
+header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+header nav ul li:hover {
+  background: #FE9A2E;
+}
+header nav ul .home, header nav ul .menu_aviso {
+  display: none;
+}
+header nav ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 11px 12px;
+}
+header nav ul li a span {
+  margin-right: 10px;
+}
+header nav ul li:hover .children {
+  display: block;
+}
+header nav ul li .children {
+  display: none;
+  color: white;
+  background: #848484;
+  position: absolute;
+  width: 190%;
+  z-index: 1000;
+}
+header nav ul li .childuno {
+  width: 100%;
+}
+header nav ul li .children li {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+header nav ul li .children li a {
+  display: block;
+}
+header nav ul li .children li a span {
+  float: left;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+header nav ul li .caret {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.icon-arrow-down4 {
+  margin: 0;
+  font-size: 18px;
+  vertical-align: middle;
+}
+section{
+  max-width: 100%;
+  width: 100%;
+  margin: 20px auto;
+}
+/*Inicia Slider*/
+.main {
+  width: 70%;
+  max-width: 1050px;
+  margin: 10px auto;
+}
+.slides {
+  width: 100%;
+}
+.slides img {
+  width: 100%;
+}
+.slidesjs-pagination {
+  background: #424242;
+  list-style: none;
+  overflow: hidden;
+}
+.slidesjs-pagination li {
+  float: left;
+}
+.slidesjs-pagination li a {
+  display: block;
+  padding: 6px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.slidesjs-pagination li a:hover {
+  background: #000;
+}
+.slides .active {
+  background: #000;
+}
+.slidesjs-navigation {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+  float: right;
+}
+/*Termina Slider*/
+/*Go heaven*/
+.goheaven {
+  background: #808080;
+  border-radius: 30%;
+  bottom: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  float: right;
+  font-size: 2em;
+  padding: 2px;
+  position: fixed;
+  right: 60px;
+}
+.goheaven:hover {
+  background: #FF8000;
+}
+/*Finish heaven*/
+
+/*Start Footer*/
+footer {
+  margin-bottom: 0;
+  background: #2E2E2E;
+  box-shadow: 0 -5px 0 rgba(0,0,0,0.1);
+  color: #fff;
+  padding: 0.2em 0.5em;
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+footer .datos_contacto {
+  text-align: left;
+  font-size: 0.9em;
+  margin-left: 5px;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  width: 60%;
+  max-width: 70%;
+}
+footer .datos_contacto address {
+  padding: 0.5em;
+}
+footer .datos_contacto .icon-phone3:after {
+  font-family: Arimo;
+  content: " (0155) 63950125";
+}
+footer .datos_contacto .icon-mail3:after {
+  font-family: Arimo;
+  content: " contacto.df@spert.com.mx";
+}
+footer .datos_contacto .icon-office:after {
+  font-family: Arimo;
+  content: " Calzada Ticomán No. 146, Col. Lindavista, C.P. 07300 Gustavo A. Madero, México D.F. Plaza Pabellón Ticoman";
+}
+/*End Footer*/
+/*Responsive*/
+@media screen and (max-width: 800px) {
+  body {
+    padding-top: 80px;
+  }
+  .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: gray;
+    z-index: 1000;
+  }
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu_bar img {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70px;
+  }
+  .menu_bar span {
+    float: right;
+    margin-right: 10px;
+    line-height: 1.6;
+    font-size: 30px;
+  }
+  header nav {
+    width: 75%;
+    height: calc(100% - 80px);
+    position: fixed;
+    top: calc(0% + 78px);
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
+  header nav ul .logo {
+    display: none;
+  }
+  header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+  }
+  header nav ul .home, header nav ul .menu_aviso {
+    display: block;
+  }
+  header nav ul li a {
+    display: block;
+  }
+  header nav ul li:hover .children {
+    display: none;
+  }
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+  header nav ul li .children li a {
+    margin-left: 20px;
+  }
+  header nav ul li .caret {
+    float: right;
+  }
+  .slidesjs-pagination a {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  footer .datos_contacto {
+    float: left;
+    text-align: left;
+    width: 90%;
+    max-width: 90%;
+    padding-top: 10px 
+  }
+  .goheaven {
+    right: 8px;
+    bottom: 30px;
+  }
+  .icon-arrow-down4 {
+    float: right;
+    font-size: 25px;
+  }
+  .main {
+  width: 95%;
+  max-width: 100%;
+  }
+  .slidesjs-pagination{
+    display:none;
+  }
+}

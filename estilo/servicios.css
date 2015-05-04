@@ -1,0 +1,176 @@
+.acord-horizon,
+.acord-horizon > form > ul > li > div,
+.acord-horizon > form > ul > li > label
+{
+    overflow: hidden;
+     
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+.acord-horizon > form > ul,
+.acord-horizon > form > ul > *
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+.acord-horizon > form > ul,
+.acord-horizon > form > ul > li > div
+{
+    height: 400px; /* height of the accordion */
+}
+ 
+.acord-horizon,
+.acord-horizon > form > ul > li > input:checked + label
+{
+    background: #2f343a;
+}
+ 
+.acord-horizon > form > ul > li > input,
+.acord-horizon > form > ul > li > label
+{
+    position: absolute;
+}
+ 
+.acord-horizon > form > ul > li,
+.acord-horizon > form > ul > li:last-child
+{
+    border: solid 1px rgba(255,255, 255, .75);
+}
+ 
+.acord-horizon > form > ul > li > div,
+.acord-horizon > form > ul > li > input
+{
+    opacity: 0; /* we hide the radio button with opacity and position: absolute in order to preserve the keyboard arrow navigation */
+}
+ 
+.acord-horizon
+{
+	margin: 0 auto;
+    padding: 1px;
+	width: 964px;
+	margin: auto;
+    font-family: Arial, Helvetica, Sans-serif;
+    cursor: default;
+    overflow: hidden;
+}
+ 
+.acord-horizon > form > ul > li > label
+{
+    display: block;
+    width: 400px; /* height of the accordion button */
+    padding: 0px 8px;
+    letter-spacing: 1px;
+    font: bold 14px/32px "Arial Rounded MT", Arial, Helvetica, Sans-serif;
+    background: orange;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     
+    -webkit-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -moz-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -ms-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -o-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    transition: all .3s cubic-bezier(.09, .11, .24, .91);
+     
+    -webkit-transform: translateX(-100%) rotate(-90deg);
+    -moz-transform: translateX(-100%) rotate(-90deg);
+    -ms-transform: translateX(-100%) rotate(-90deg);
+    -o-transform: translateX(-100%) rotate(-90deg);
+    transform: translateX(-100%) rotate(-90deg);
+     
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -ms-transform-origin: right top;
+    -o-transform-origin: right top;
+    transform-origin: right top;
+     
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+ 
+.acord-horizon > form > ul > li > input:not(:checked) + label:hover
+{
+    background: yellow;
+}
+ 
+.acord-horizon > form > ul > li > input:checked + label
+{
+    border-bottom-color: transparent;
+    color: rgba(255, 255, 255, .5);
+}
+ 
+.acord-horizon > form > ul > li
+{
+    float: left;
+    padding: 0 32px 0 0;
+    border-right: 0;
+}
+ 
+.acord-horizon > form > ul > li > div
+{
+    width: 0;
+    font-size: 10px;
+    color: #fff;
+    margin: 0 -32px 0 32px;
+     
+    -webkit-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -moz-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -ms-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    -o-transition: all .3s cubic-bezier(.09, .11, .24, .91);
+    transition: all .3s cubic-bezier(.09, .11, .24, .91);
+}
+ 
+.acord-horizon > form > ul > li > input:checked ~ div
+{
+    width: 763px; /* the width of the expanded panel */
+    padding: 8px;
+    overflow: auto;
+    opacity: 1;
+    height: 400px;
+}
+
+.acord-horizon > form > ul > li > div h3
+{
+	padding: 20px;
+    font: inherit;
+    font-size: 14px;
+    border: 0;
+}
+ 
+.acord-horizon > form > ul > li > div h3,
+.acord-horizon > form > ul > li > div p
+{
+	padding: 10px;
+    color: #fff;
+}
+ 
+.acord-horizon > form > ul > li > div p
+{
+	text-align: justify;
+    font-size: 14px;
+}
+
+.acord-horizon > form > ul > li > div label a
+{
+	padding: 10px;
+	color: #FFF;
+	background: black;
+	text-decoration: none;
+    font-size: 12px;
+    float: right;
+    margin: 15px; 
+}
+
+.acord-horizon > form > ul > li > div img
+{
+	margin: 15px;
+	float: left;
+}

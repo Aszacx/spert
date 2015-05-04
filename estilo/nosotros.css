@@ -1,0 +1,25 @@
+.forma .desliza{
+	position: relative;
+	padding: 8px;
+	width: 1050px;
+	margin: auto;
+	overflow: hidden;
+}
+.forma .desliza h5{
+	margin: 0;
+	padding: 2px;
+}
+.forma .desliza .section{
+	border-bottom: 1px solid #808080;
+	padding: 0 1em;
+	margin-bottom: .5em;
+	background: #fff;
+	border-radius:  10px;
+	box-shadow: 1px 1px 3px #5F9EA0;
+}
+.forma .desliza h5 + div{
+	display: none;
+}
+.forma .desliza :target h5 + div{
+	display: block;
+}

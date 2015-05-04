@@ -1,0 +1,50 @@
+.section{
+	background: #2E9AFE;
+	margin-top: 20px;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 15px;
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+.section form iframe{
+	max-width: 100%;
+}
+.map{
+	align: center;
+	float: left;
+	position: relative;
+}
+.forma{
+	align: center;
+	float: right;
+	position: relative;
+}
+.forma form{
+	width: 100%;
+	max-width: 100%;
+}
+.map form, .forma form{
+	margin: auto;
+	padding: 10px;
+}
+.forma form h1{
+	color: white;
+	font-size: 18px;
+	text-shadow: .5px .5px 1px;
+}
+.forma form input{
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px;
+	max-width: 100%;
+	padding: 3px;
+	text-align: center;
+}
+.forma form textarea{
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px;
+	max-width: 100%;
+	padding: 5px;
+	text-align: center;
+}

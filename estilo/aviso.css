@@ -1,0 +1,24 @@
+.aviso{
+	margin: 50px auto;
+	text-align: justify;
+	width: 80%;
+	max-width: 80%;
+	font-size: 16px
+}
+.aviso h1{
+	font-size: 25px;
+}
+.aviso a{
+	text-decoration: none;
+	font-weight: bold;
+	color: blue
+}
+.aviso label{
+	float: right;
+}
+.aviso label a{
+	text-decoration: none;
+	padding: 10px;
+	background: orange;
+	color: black
+}
