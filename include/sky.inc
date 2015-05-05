@@ -24,7 +24,7 @@
 		<nav>
 			<div class="social">
 				<ul>
-					<li><a href="aviso"><u>Aviso de P</u></a></li>
+					<li><a href="aviso"><u>Aviso de Privacidad</u></a></li>
 					<li><a href="#"><span class="icon-twitter4"></span></a></li>
 					<li><a href="https://www.facebook.com/spertish" target="_blank"><span class="icon-facebook3"></span></a></li>
 					<li><a href="#"><span class="icon-linkedin2"></span></a></li>
