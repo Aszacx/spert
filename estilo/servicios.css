@@ -53,9 +53,10 @@
     padding: 1px;
 	width: 964px;
 	margin: auto;
-    font-family: Arial, Helvetica, Sans-serif;
+    font-family: Arimo, Arial, Helvetica, Sans-serif;
     cursor: default;
     overflow: hidden;
+    max-width: 80%;
 }
  
 .acord-horizon > form > ul > li > label
@@ -64,7 +65,7 @@
     width: 400px; /* height of the accordion button */
     padding: 0px 8px;
     letter-spacing: 1px;
-    font: bold 14px/32px "Arial Rounded MT", Arial, Helvetica, Sans-serif;
+    font: bold 14px/32px Arimo,"Arial Rounded MT", Arial, Helvetica, Sans-serif;
     background: orange;
     color: #fff;
     text-align: center;
@@ -173,4 +174,13 @@
 {
 	margin: 15px;
 	float: left;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .acord-horizon{
+        display: none; 
+
+    }    
+
 }

@@ -14,6 +14,8 @@
 			<input placeholder="Correo Electrónico*" type="email" name="email" maxlength="80" size="35" required>
 			<br/><br/>
 			<textarea placeholder="Escribe aquí tu mensaje*" name="comments" maxlength="500" cols="30" rows="5" required></textarea><br/>
+			<label>Los campos marcados con * son obligatorios.</label>
+			<br />
 			<input type="submit" value="Enviar">
 		</form>	
 	</div>

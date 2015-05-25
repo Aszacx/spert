@@ -25,6 +25,6 @@ function controller($name)
     else
     {
         header("HTTP/1.0 404 Not Found");
-        exit("Pagina no encontrada");
+        exit("Página no encontrada");
     }
 }

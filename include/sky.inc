@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="description" content="SPERT S.A. de C.V." />
 	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="estilo/normalize.css" />
 	<link rel="stylesheet" href="estilo/estilos.css" />
 	<link rel="stylesheet" href="fonts/fonts.css" />
@@ -40,14 +41,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="servicios">Áreas de Negocio <span class="icon-arrow-down4"></span></a>
-					<ul class="children">
-						<li><a href="#"><span class="icon-arrow-right3"></span>Procesos</a></li>
-						<li><a href="#"><span class="icon-arrow-right3"></span>Continuidad de Negocio</a></li>
-						<li><a href="#"><span class="icon-arrow-right3"></span>Sistema de Gestión de Calidad</a></li>
-						<li><a href="#"><span class="icon-arrow-right3"></span>Reclutamiento y Selección de Personal</a></li>
-					</ul>
-				</li>
+					<a href="servicios">Áreas de Negocio</a></li>
 				<li><a href="">Casos de Éxito</a></li>
 				<li class="submenu"><a href="#">Divisiones de Negocio <span class="icon-arrow-down4"></span></a>
 					<ul class="children childuno">

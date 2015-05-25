@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arimo;
+  font-family: Arimo, Arial, Helvetica, Sans-serif;
   background: #fefefe;
 }
 .menu_bar {
@@ -21,7 +21,7 @@ header {
   width: 100%;
 }
 header nav {
-  background: #2E2E2E;
+  background: #4F4D4C;
   z-index: 1000;
   max-width: 100%;
   width: 100%;
@@ -189,7 +189,7 @@ section{
 /*Start Footer*/
 footer {
   margin-bottom: 0;
-  background: #2E2E2E;
+  background: #4F4D4C;
   box-shadow: 0 -5px 0 rgba(0,0,0,0.1);
   color: #fff;
   padding: 0.2em 0.5em;
@@ -210,7 +210,7 @@ footer .datos_contacto address {
 }
 footer .datos_contacto .icon-phone3:after {
   font-family: Arimo;
-  content: " (0155) 63950125";
+  content: " (01 55) 63950125";
 }
 footer .datos_contacto .icon-mail3:after {
   font-family: Arimo;
