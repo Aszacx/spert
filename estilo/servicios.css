@@ -26,7 +26,7 @@
 .acord-horizon,
 .acord-horizon > form > ul > li > input:checked + label
 {
-    background: #2f343a;
+    background: white;
 }
  
 .acord-horizon > form > ul > li > input,
@@ -99,7 +99,7 @@
  
 .acord-horizon > form > ul > li > input:not(:checked) + label:hover
 {
-    background: yellow;
+    background: orange;
 }
  
 .acord-horizon > form > ul > li > input:checked + label
@@ -145,12 +145,16 @@
     font-size: 14px;
     border: 0;
 }
+
+.acord-horizon > form > ul > li > div h3{
+    font-weight: bold;
+}
  
 .acord-horizon > form > ul > li > div h3,
 .acord-horizon > form > ul > li > div p
 {
 	padding: 10px;
-    color: #fff;
+    color: #000;
 }
  
 .acord-horizon > form > ul > li > div p
@@ -163,11 +167,16 @@
 {
 	padding: 10px;
 	color: #FFF;
-	background: black;
+	background: gray;
 	text-decoration: none;
     font-size: 12px;
     float: right;
     margin: 15px; 
+}
+
+.acord-horizon > form > ul > li > div label a:hover
+{
+    background: black;
 }
 
 .acord-horizon > form > ul > li > div img

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="description" content="SPERT S.A. de C.V." />
 	<meta name="keywords" content="" />
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<!--<link rel="stylesheet" href="estilo/bootstrap.min.css" />-->
 	<link rel="stylesheet" href="estilo/normalize.css" />
 	<link rel="stylesheet" href="estilo/estilos.css" />
 	<link rel="stylesheet" href="fonts/fonts.css" />
@@ -25,15 +25,15 @@
 		<nav>
 			<div class="social">
 				<ul>
-					<li><a href="aviso"><u>Aviso de Privacidad</u></a></li>
+					<li><label><a href="aviso">Aviso de Privacidad</a></label></li>
 					<li><a href="#"><span class="icon-twitter4"></span></a></li>
 					<li><a href="https://www.facebook.com/spertish" target="_blank"><span class="icon-facebook3"></span></a></li>
 					<li><a href="#"><span class="icon-linkedin2"></span></a></li>
 				</ul>
 			</div>
 			<ul>
-				<li class="logo"><a href="/america"><img src="images/logo.png" alt="SPERT"></a></li>
-				<li class="home"><a href="/america">Inicio</a></li>
+				<li class="logo"><a href="./"><img src="images/logo.png" alt="SPERT"></a></li>
+				<li class="home"><a href="./">Inicio</a></li>
 				<li class="submenu"><a href="nosotros">¿Quienes somos? <span class="icon-arrow-down4"></span></a>
 					<ul class="children childuno">
 						<li><a href="#"><span class="icon-arrow-right3"></span>Misión | Visión</a></li>
@@ -45,11 +45,11 @@
 				<li><a href="">Casos de Éxito</a></li>
 				<li class="submenu"><a href="#">Divisiones de Negocio <span class="icon-arrow-down4"></span></a>
 					<ul class="children childuno">
-						<li><a href="http://spazzio.spert.com.mx" target="_blank"><span class="icon-arrow-right3"></span>SPAZZIO</a></li>
-						<li><a href="#"><span class="icon-arrow-right3"></span>JJandB</a></li>
+						<li><a href="http://spazzio.spert.com.mx" target="_blank"><span class="icon-arrow-right3"></span>SPAZZIO Coworking</a></li>
+						<li><a href="#"><span class="icon-arrow-right3"></span>JB67 S.A. de C.V.</a></li>
 					</ul>
 				</li>
-				<li><a href="http://post.spert.com.mx">Artículos</a></li>
+				<li><a href="http://blog.spert.com.mx">Artículos</a></li>
 				<li><a href="contacto"></span>Contacto</a></li>
 				<li class="menu_aviso"><a href="aviso">Aviso de Privacidad</a></li>
 			</ul>

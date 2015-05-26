@@ -29,24 +29,33 @@
 	margin: auto;
 	padding: 10px;
 }
-.forma form h1{
-	color: white;
-	font-size: 18px;
-	text-shadow: .5px .5px 1px;
-}
 .forma form input{
-	box-shadow: 1px 1px 3px;
-	max-width: 100%;
-	padding: 3px;
-	text-align: center;
-}
-.forma form textarea{
-	box-shadow: 1px 1px 3px;
+	border-radius: 3px;
 	max-width: 100%;
 	padding: 5px;
+	text-align: center;
+	box-shadow: none;
+}
+.forma form textarea{
+	border-radius: 3px;
+	max-width: 100%;
+	padding: 5px;
+	resize: none;
 	text-align: center;
 }
 .forma form label{
 	font-weight: bold;
 	font-size: 12px;
+}
+.forma form .btn{
+	color: white;
+	font-size: 13px;
+	float: left;
+	padding: 8px;
+	background: gray;
+	border: none;
+	border-radius: 3px;
+}
+.forma form .btn:hover{
+	background: black;
 }

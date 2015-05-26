@@ -6,17 +6,16 @@
 	</div>
 	<div class="forma">
 		<form action="send.php" method="post">
-			<h1>¡Escribenos!<br /> En breve nos pondremos en contacto contigo.</h1>
-			<input placeholder="Nombre(s)*" type="text" name="first_name" maxlength="50" size="25" required>
+			<input placeholder="Nombre(s)*" type="text" name="first_name" maxlength="50" size="35" required>
 			<br/><br/>
-			<input placeholder="Empresa" type="text" name="empresa" maxlength="50" size="25">
+			<input placeholder="Empresa" type="text" name="empresa" maxlength="50" size="35">
 			<br/><br/>
 			<input placeholder="Correo Electrónico*" type="email" name="email" maxlength="80" size="35" required>
 			<br/><br/>
-			<textarea placeholder="Escribe aquí tu mensaje*" name="comments" maxlength="500" cols="30" rows="5" required></textarea><br/>
-			<label>Los campos marcados con * son obligatorios.</label>
-			<br />
-			<input type="submit" value="Enviar">
+			<textarea placeholder="Escribe aquí tu mensaje*" name="comments" maxlength="500" cols="35" rows="6" required></textarea><br/>
+			<label>Campos con * obligatorios.</label>
+			<br /><br />
+			<input type="submit" value="ENVIAR MENSAJE" class="btn">
 		</form>	
 	</div>
 </div>
