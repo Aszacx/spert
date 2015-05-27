@@ -1,25 +1,60 @@
-.forma .desliza{
-	position: relative;
-	padding: 8px;
-	width: 1050px;
-	margin: auto;
+.section{
+	background: none;
+	margin-top: 20px;
+	max-width: 100%;
 	overflow: hidden;
+	padding: 15px;
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
 }
-.forma .desliza h5{
-	margin: 0;
-	padding: 2px;
+.section form iframe{
+	max-width: 100%;
 }
-.forma .desliza .section{
-	border-bottom: 1px solid #808080;
-	padding: 0 1em;
-	margin-bottom: .5em;
-	background: #fff;
-	border-radius:  10px;
-	box-shadow: 1px 1px 3px #5F9EA0;
+.map{
+	align: center;
+	float: left;
+	position: relative;
 }
-.forma .desliza h5 + div{
-	display: none;
+.forma{
+	align: center;
+	float: right;
+	position: relative;
 }
-.forma .desliza :target h5 + div{
-	display: block;
+.forma form{
+	width: 100%;
+	max-width: 100%;
+}
+.map form, .forma form{
+	margin: auto;
+	padding: 10px;
+}
+.forma form input{
+	border-radius: 2px;
+	max-width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+.forma form textarea{
+	border-radius: 3px;
+	max-width: 100%;
+	padding: 3px;
+	resize: none;
+	text-align: center;
+}
+.forma form label{
+	font-weight: bold;
+	font-size: 12px;
+}
+.forma form .btn{
+	color: white;
+	font-size: 13px;
+	float: right;
+	padding: 8px;
+	background: gray;
+	border: none;
+	border-radius: 3px;
+}
+.forma form .btn:hover{
+	background: black;
 }
