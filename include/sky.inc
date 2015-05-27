@@ -33,8 +33,8 @@
 			</div>
 			<ul>
 				<li class="logo"><a href="./"><img src="images/logo.png" alt="SPERT"></a></li>
-				<li class="home"><a href="./">Inicio</a></li>
-				<li class="submenu"><a href="nosotros">¿Quienes somos? <span class="icon-arrow-down4"></span></a>
+				<li class="/"><a href="./">Inicio</a></li>
+				<li class="submenu"><a href="#">¿Quienes somos? <span class="icon-arrow-down4"></span></a>
 					<ul class="children childuno">
 						<li><a href="nosotros"><span class="icon-arrow-right3"></span>Misión | Visión</a></li>
 						<li><a href="clientes"><span class="icon-arrow-right3"></span>Nuestros Clientes</a></li>
@@ -43,7 +43,7 @@
 				<li class="submenu">
 					<a href="servicios">Áreas de Negocio</a></li>
 				<li><a href="exito">Casos de Éxito</a></li>
-				<li class="submenu"><a href="">Divisiones de Negocio <span class="icon-arrow-down4"></span></a>
+				<li class="submenu"><a href="#">Divisiones de Negocio <span class="icon-arrow-down4"></span></a>
 					<ul class="children childuno">
 						<li><a href="http://spazzio.spert.com.mx" target="_blank"><span class="icon-arrow-right3"></span>SPAZZIO Coworking</a></li>
 						<li><a href="#"><span class="icon-arrow-right3"></span>JB67 S.A. de C.V.</a></li>

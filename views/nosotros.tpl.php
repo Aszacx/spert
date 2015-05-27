@@ -1,10 +1,12 @@
 <div class="section" align="center">
-	<div class="map">
-		<form>
-			<img src="./images/Misión.png" width="520" height="335" />
-		</form>	
-	</div>
-	<div class="forma">
-		<img src="./images/Visión.png" width="520" height="335" />
-	</div>
+			<div class="contenedor">
+				<div class="slider">
+					<div class="elemento">
+						<img src="./images/Misión.png" />
+					</div>
+					<div class="elemento">
+						<img src="./images/Visión.png" />
+					</div>
+				</div>
+			</div>
 </div>

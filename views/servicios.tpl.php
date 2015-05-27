@@ -6,18 +6,9 @@
                 <label for="group-01-01">Procesos</label>
                 <div>
                     <h3>PROCESOS</h3>
-                    <a href=""><img src="images/rrhh.png" width="300"></a>
+                    <a href=""><img src="images/" width="300"></a>
                     <br />
-                    <p>Apoyamos a nuestros clientes en la selección del personal idóneo de acuerdo al puesto y habilidades
-                        requeridas mediante procesos claramente definidos.
-                        <br /><br />
-                        Debido a que, para su empresa es importante tener siempre personal con el desempeño que permita
-                        garantizar los mejores resultados. Nuestros servicios lo apoyan en la expansión de su empresa o
-                        simplemente en la sustitución de sus bajas por rotación o por cambios en su organigrama.
-                        <br /><br />
-                        Realizamos todo tipo de servicios de reclutamiento y selección de personal: Directivas, Gerenciales,
-                        Administrativas, Operativas, así como servicios especializados dirigidos al sector de Tecnología de la
-                        Información.</p>
+                    <p></p>
                         <br /><br />
                         <label>
                             <a href="downloads/SPERT_Reclutamiento_personal.pdf" target="_blank">
@@ -30,18 +21,9 @@
                 <label for="group-01-02">Continuidad de Negocio</label>
                 <div>
                     <h3>CONTINUIDAD DE NEGOCIO</h3>
-                    <a href=""><img src="images/rrhh.png" width="300"></a>
+                    <a href=""><img src="images/" width="300"></a>
                     <br />
-                    <p>Apoyamos a nuestros clientes en la selección del personal idóneo de acuerdo al puesto y habilidades
-                        requeridas mediante procesos claramente definidos.
-                        <br /><br />
-                        Debido a que, para su empresa es importante tener siempre personal con el desempeño que permita
-                        garantizar los mejores resultados. Nuestros servicios lo apoyan en la expansión de su empresa o
-                        simplemente en la sustitución de sus bajas por rotación o por cambios en su organigrama.
-                        <br /><br />
-                        Realizamos todo tipo de servicios de reclutamiento y selección de personal: Directivas, Gerenciales,
-                        Administrativas, Operativas, así como servicios especializados dirigidos al sector de Tecnología de la
-                        Información.</p>
+                    <p></p>
                         <br /><br />
                         <label>
                             <a href="downloads/SPERT_Reclutamiento_personal.pdf" target="_blank">
@@ -54,18 +36,9 @@
                 <label for="group-01-03">Sistemas de Gestión de Calidad</label>
                 <div>
                     <h3>SISTEMAS DE GESTIÓN DE CALIDAD</h3>
-                    <a href=""><img src="images/rrhh.png" width="300"></a>
+                    <a href=""><img src="images/" width="300"></a>
                     <br />
-                    <p>Apoyamos a nuestros clientes en la selección del personal idóneo de acuerdo al puesto y habilidades
-                        requeridas mediante procesos claramente definidos.
-                        <br /><br />
-                        Debido a que, para su empresa es importante tener siempre personal con el desempeño que permita
-                        garantizar los mejores resultados. Nuestros servicios lo apoyan en la expansión de su empresa o
-                        simplemente en la sustitución de sus bajas por rotación o por cambios en su organigrama.
-                        <br /><br />
-                        Realizamos todo tipo de servicios de reclutamiento y selección de personal: Directivas, Gerenciales,
-                        Administrativas, Operativas, así como servicios especializados dirigidos al sector de Tecnología de la
-                        Información.</p>
+                    <p></p>
                         <br /><br />
                         <label>
                             <a href="downloads/SPERT_Reclutamiento_personal.pdf" target="_blank">

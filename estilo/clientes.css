@@ -5,14 +5,17 @@
 	overflow: hidden;
 	padding: 15px;
 	position: relative;
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
 }
 .contenedor{
 	align: center;
 	position: relative;
 }
-.map form{
+.contenedor form{
 	margin: auto;
 	padding: 10px;
+}
+.contenedor form img{
+	max-width: 100%;
 }
