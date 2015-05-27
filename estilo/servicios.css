@@ -157,10 +157,16 @@
     color: #000;
 }
  
-.acord-horizon > form > ul > li > div p
+.acord-horizon > form > ul > li > div p,
+.acord-horizon > form > ul > li > div > p > .pregunta > li
 {
 	text-align: justify;
     font-size: 14px;
+}
+
+.acord-horizon > form > ul > li > div > p > .pregunta > li
+{
+    color: black;
 }
 
 .acord-horizon > form > ul > li > div label a
@@ -171,7 +177,7 @@
 	text-decoration: none;
     font-size: 12px;
     float: right;
-    margin: 15px; 
+    margin: 12px; 
 }
 
 .acord-horizon > form > ul > li > div label a:hover

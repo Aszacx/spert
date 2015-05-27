@@ -25,6 +25,7 @@ function controller($name)
     else
     {
         header("HTTP/1.0 404 Not Found");
-        exit("Página no encontrada");
+        include("views/404.tpl.php");
+        exit();
     }
 }
