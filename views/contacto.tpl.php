@@ -1,10 +1,9 @@
-<div class="section" align="center">
-	<div class="map">
+	<div class="map" align="center">
 		<form>
 			<iframe src="https://www.google.com/maps/d/embed?mid=zZZIn7BGWlNw.kSn4Q0AmkUzQ" width="520" height="335"></iframe>
 		</form>	
 	</div>
-	<div class="forma">
+	<div class="forma" align="center">
 		<form action="send.php" method="post">
 			<input placeholder="Nombre(s)*" type="text" name="first_name" maxlength="50" size="35" required>
 			<br/><br/>
@@ -18,4 +17,4 @@
 			<input type="submit" value="ENVIAR MENSAJE" class="btn">
 		</form>	
 	</div>
-</div>
+

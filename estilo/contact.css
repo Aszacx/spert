@@ -1,24 +1,6 @@
-.section{
-	background: none;
-	margin-top: 20px;
+
+form iframe{
 	max-width: 100%;
-	overflow: hidden;
-	padding: 15px;
-	position: relative;
-	width: 75%;
-	margin: 0 auto;
-}
-.section form iframe{
-	max-width: 100%;
-}
-.map{
-	align: center;
-	float: left;
-	position: relative;
-}
-.forma{
-	float: right;
-	position: relative;
 }
 .forma form{
 	width: 100%;
@@ -48,7 +30,6 @@
 .forma form .btn{
 	color: white;
 	font-size: 13px;
-	float: right;
 	padding: 8px;
 	background: gray;
 	border: none;
