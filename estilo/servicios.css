@@ -66,7 +66,7 @@
     padding: 0px 8px;
     letter-spacing: 1px;
     font: bold 14px/32px Arimo,"Arial Rounded MT", Arial, Helvetica, Sans-serif;
-    background: orange;
+    background: #FF8000;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -99,13 +99,13 @@
  
 .acord-horizon > form > ul > li > input:not(:checked) + label:hover
 {
-    background: orange;
+    background: #FE9A2E;
 }
  
 .acord-horizon > form > ul > li > input:checked + label
 {
     border-bottom-color: transparent;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(0, 0, 0, 0.5);
 }
  
 .acord-horizon > form > ul > li
@@ -153,31 +153,25 @@
 .acord-horizon > form > ul > li > div h3,
 .acord-horizon > form > ul > li > div p
 {
-	padding: 10px;
+	padding: 0px 10px;
     color: #000;
 }
  
-.acord-horizon > form > ul > li > div p,
-.acord-horizon > form > ul > li > div > p > .pregunta > li
+.acord-horizon > form > ul > li > div p
 {
 	text-align: justify;
     font-size: 14px;
-}
-
-.acord-horizon > form > ul > li > div > p > .pregunta > li
-{
-    color: black;
 }
 
 .acord-horizon > form > ul > li > div label a
 {
 	padding: 10px;
 	color: #FFF;
-	background: gray;
+	background: #424242;
 	text-decoration: none;
     font-size: 12px;
     float: right;
-    margin: 12px; 
+    margin: 0px; 
 }
 
 .acord-horizon > form > ul > li > div label a:hover
@@ -185,9 +179,15 @@
     background: black;
 }
 
+.acord-horizon > form > ul > li > div label a .icon{
+    font-size: 18px;
+    vertical-align: middle;
+}
+
 .acord-horizon > form > ul > li > div img
 {
-	margin: 15px;
+    width: 320px;
+	margin: 5px;
 	float: left;
 }
 

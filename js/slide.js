@@ -4,7 +4,7 @@
 			setInterval(function(){
 				$(".slider div:first-child").fadeOut(0)
 					.next("div").fadeIn(1000)
-					.end().appendTo(".slider");}, 15000);
+					.end().appendTo(".slider");}, 8000);
 			});
 		//]]>
   
