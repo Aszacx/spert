@@ -2,7 +2,7 @@
 	if(isset($_POST['email'])) {
 
 		// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-		$email_to = "issac.centen@spert.com.mx";
+		$email_to = "issac.centeno@spert.com.mx";
 		$email_subject = "Te han contactado a través del sitio web.";
 
 		// Aquí se deberían validar los datos ingresados por el usuario
@@ -31,6 +31,6 @@
 
 		$mensaje = "Gracias. En breve te responderemos.";
 		print "<script>alert('$mensaje')</script>";
-		header('Location:./');
+		header('Location:../views/home.tpl.php');
 	}
 ?>
