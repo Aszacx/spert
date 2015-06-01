@@ -2,8 +2,8 @@
 	if(isset($_POST['email'])) {
 
 		// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-		$email_to = $_POST['email'];
-		$email_subject = "isacenteno@hotmail.com";
+		$email_to = "isacenteno@hotmail.com";
+		$email_subject = $_POST['email'];
 
 		// Aquí se deberían validar los datos ingresados por el usuario
 		if(!isset($_POST['first_name']) ||
