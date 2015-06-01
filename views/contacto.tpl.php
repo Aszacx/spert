@@ -21,7 +21,7 @@
 	</div>
 	<?php
         if(isset($_POST['enviar'])){
-            require("../php/send.php");
+            require("./php/send.php");
         }
      ?>
 
