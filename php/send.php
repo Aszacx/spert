@@ -2,8 +2,8 @@
 	if(isset($_POST['email'])) {
 
 		// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-		$email_to = "issac.centeno@spert.com.mx";
-		$email_subject = "A través de la pagina SPERT";
+		$email_to = "contacto.df@spert.com.mx";
+		$email_subject = "Te han contactado a través del sitio web.";
 
 		// Aquí se deberían validar los datos ingresados por el usuario
 		if(!isset($_POST['first_name']) ||
@@ -29,7 +29,7 @@
 		'X-Mailer: PHP/' . phpversion();
 		mail($email_to, $email_subject, $email_message, $headers);
 
-			echo "<h2>¡Gracias!</h2>
-				<p>Tu formulario se ha enviado satisfactoriamente.</p>";
+		$mensaje = "¡Gracias! En breve te responderemos";
+		print "<script>alert('$mensaje')</script>";
 	}
 ?>
