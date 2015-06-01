@@ -246,7 +246,7 @@ footer .datos_contacto .icon-office:after {
     width: 100%;
     position: fixed;
     top: 0;
-    background: gray;
+    background: #4F4D4C;
     z-index: 1000;
   }
   .menu_bar .bt-menu {

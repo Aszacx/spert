@@ -1,9 +1,9 @@
 .enlaces{
   margin: 30px;
-  width: 100%;
   max-width: 100%;
 }
 .enlaces label{
+  margin: 25px;
   background: #58ACFA;
   box-shadow: 1px 1px 2px black;
   color: white;
@@ -20,6 +20,10 @@
 .enlaces label:hover{
   opacity: 0.8;
   padding: 8px 13px;
+}
+
+.cont_iframe{
+  margin-bottom: 120px;
 }
 
 .cont_iframe iframe{
