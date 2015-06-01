@@ -29,8 +29,7 @@
 		'X-Mailer: PHP/' . phpversion();
 		mail($email_to, $email_subject, $email_message, $headers);
 
-		$mensaje = "Gracias. En breve te responderemos.";
+		$mensaje = "Gracias. En breve nos pondremos en contacto contigo.";
 		print "<script>alert('$mensaje')</script>";
-		header('Location:../views/home.tpl.php');
 	}
 ?>
