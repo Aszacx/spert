@@ -2,8 +2,8 @@
 	if(isset($_POST['email'])) {
 
 		// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-		$email_to = "isacenteno@hotmail.com";
-		$email_subject = $_POST['email'];
+		$email_to = "issac.centeno@spert.com.mx";
+		$email_subject = "A través de la pagina SPERT";
 
 		// Aquí se deberían validar los datos ingresados por el usuario
 		if(!isset($_POST['first_name']) ||
@@ -29,12 +29,7 @@
 		'X-Mailer: PHP/' . phpversion();
 		mail($email_to, $email_subject, $email_message, $headers);
 
-			echo "<div id=modal1 class=modalmask>
-				  	<div class=modalbox movedown>
-						<a href=#close title=Close class=close>X</a>
-						<h2>¡Gracias!</h2>
-						<p>Tu formulario se ha enviado satisfactoriamente.</p>
-					</div>
-				</div>";
+			echo "<h2>¡Gracias!</h2>
+				<p>Tu formulario se ha enviado satisfactoriamente.</p>";
 	}
 ?>
