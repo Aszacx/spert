@@ -1,7 +1,3 @@
-<div class="section" align="center">
-	<div class="contenedor">
-		<form>
-			<img src="./images/Clientes.png" width="520" height="370" />
-		</form>	
-	</div>
+<div class="contenedor" align="center">
+			<img src="./images/Clientes.jpg" width="650" height="450" />
 </div>

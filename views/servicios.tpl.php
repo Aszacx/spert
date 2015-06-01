@@ -6,7 +6,7 @@
                 <label for="group-01-02">Continuidad de Negocio</label>
                 <div>
                     <h3>CONTINUIDAD DE NEGOCIO</h3>
-                    <a href="#"><img src="images/Continuidad.png" width="300"></a>
+                    <a href="#"><img src="images/Continuidad.jpg" width="300"></a>
                     <br />
                     <p>
                         El Modelo de Administración de la Continuidad de Negocios (BCM por sus siglas en ingles), 
@@ -38,7 +38,7 @@
                 <label for="group-01-01">Gestión de Procesos</label>
                 <div>
                     <h3>GESTIÓN DE PROCESOS</h3>
-                    <a href="#"><img src="images/procesos.png" width="300"></a>
+                    <a href="#"><img src="images/procesos.jpg" width="300"></a>
                     <br />
                     <p>
                         La nueva visión de las oficinas de gestión de procesos, hace énfasis en los términos de ¿qué? (trabajo) 
@@ -64,7 +64,7 @@
                 <label for="group-01-03">Sistemas de Gestión de Calidad</label>
                 <div>
                     <h3>SISTEMAS DE GESTIÓN DE CALIDAD</h3>
-                    <a href="#"><img src="images/calidad.png" width="300"></a>
+                    <a href="#"><img src="images/calidad.jpg" width="300"></a>
                     <br />
                     <p>
                         Alguna vez te has preguntado:
@@ -95,7 +95,7 @@
                 <label for="group-01-04">Reclutamiento y Selección de Personal</label>
                 <div>
                     <h3>SERVICIOS DE RECLUTAMIENTO Y SELECCIÓN DE PERSONAL</h3>
-                    <a href="#"><img src="images/rrhh.png" width="300"></a>
+                    <a href="#"><img src="images/rrhh.jpg" width="300"></a>
                     <br />
                     <p>Apoyamos a nuestros clientes en la selección del personal idóneo de acuerdo al puesto y habilidades
 						requeridas mediante procesos claramente definidos.
@@ -119,7 +119,7 @@
                 <label for="group-01-05">Análisis de Riesgos Operacionales</label>
                 <div>
                     <h3>ANÁLISIS DE RIESGOS OPERACIONALES</h3>
-                    <a href=""><img src="images/Riesgos.png" width="300"></a>
+                    <a href=""><img src="images/Riesgos.jpg" width="300"></a>
                     <br />
                     <p>
                         Los riesgos operacionales constituyen en la actualidad un nuevo enfoque en las empresas

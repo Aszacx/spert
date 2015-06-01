@@ -4,6 +4,8 @@
 		</form>	
 	</div>
 	<div class="forma" align="center">
+		<h3>Escribemos</h3>
+		<p>En breve nos pondremos en contacto contigo.</p>
 		<form action="send.php" method="post">
 			<input placeholder="Nombre(s)*" type="text" name="first_name" maxlength="50" size="35" required>
 			<br/><br/>

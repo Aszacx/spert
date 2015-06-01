@@ -1,6 +1,8 @@
-
 form iframe{
-	max-width: 100%;
+	max-width: 80%;
+}
+.forma{
+	margin-bottom: 100px;
 }
 .forma form{
 	width: 100%;

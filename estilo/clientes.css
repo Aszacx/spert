@@ -1,21 +1,9 @@
-.section{
-	background: none;
-	margin-top: 20px;
-	max-width: 100%;
-	overflow: hidden;
-	padding: 15px;
-	position: relative;
-	width: 100%;
-	margin: 0 auto;
-}
 .contenedor{
-	align: center;
-	position: relative;
+	margin: 30px;
+	width: auto;
+	max-width: 100%;
 }
-.contenedor form{
-	margin: auto;
-	padding: 10px;
-}
-.contenedor form img{
+
+.contenedor img{
 	max-width: 100%;
 }

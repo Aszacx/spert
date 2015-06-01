@@ -1,5 +1,6 @@
 .aviso{
 	margin: 50px auto;
+	margin-bottom: 130px;
 	text-align: justify;
 	width: 80%;
 	max-width: 80%;
@@ -19,6 +20,11 @@
 .aviso label a{
 	text-decoration: none;
 	padding: 10px;
-	background: orange;
-	color: black
+	background: #58ACFA;
+	color: #1C1C1C;
+	z-index: 10;
+}
+
+.aviso label:hover{
+	opacity: 0.9;
 }

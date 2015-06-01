@@ -1,27 +1,27 @@
-.section {
-  margin: 0 auto;
-  position: relative;
-  width: 520px;
-  z-index: -5;
-}
-.section .contenedor {
-  position: relative;
-  width: 520px;
-}
-.section .contenedor .slider {
-  box-shadow: 0px 0px 2px #000;
-  margin: 0 auto;
-  margin-top: 0px;
-  min-height: 388px;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
+.enlaces{
+  margin: 30px;
   width: 100%;
+  max-width: 100%;
 }
-.section .contenedor .slider .elemento {
-  position: absolute;
-  width: 100%;
+.enlaces label{
+  background: #58ACFA;
+  box-shadow: 1px 1px 2px black;
+  color: white;
+  padding: 5px 10px;
 }
-.section .contenedor .slider .elemento img {
-  width: 100%;
+
+.enlaces label a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: .8px .8px 1px black;
+}
+
+.enlaces label:hover{
+  opacity: 0.8;
+  padding: 8px 13px;
+}
+
+.cont_iframe iframe{
+  max-width: 80%;
 }
